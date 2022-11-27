@@ -1,0 +1,68 @@
+.how {
+    color: #394b50;
+    text-align: center;
+    margin-bottom: 133px;
+}
+
+.how-title {
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.how-sub {
+    font-size: 18px;
+}
+
+.how-columns {
+    display: flex;
+}
+
+.how-column {
+    width: 25%;
+    margin: 0 30px;
+    padding-top: 170px;
+    background-repeat: no-repeat;
+    background-position: center 70px;
+}
+
+.how-column h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.how-column p {
+    color: #7b7b7b;
+    line-height: 1.69;
+}
+
+.how-column-1 {
+    background-image: url(../../images/ic-headphones.png);
+}
+
+.how-column-2 {
+    background-image: url(../../images/ic-lock.png);
+}
+
+.how-column-3 {
+    background-image: url(../../images/ic-save.png);
+}
+
+.how-column-4 {
+    background-image: url(../../images/ic-hand.png);
+}
+
+.btn-2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ffbb42;
+    border: none;
+    border-radius: 1px;
+    padding: 17px 28px;
+    margin-top: 68px;
+}
