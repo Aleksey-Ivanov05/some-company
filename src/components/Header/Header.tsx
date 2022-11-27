@@ -8,9 +8,10 @@ const Header = () => {
       <Link to="/" className="logo">Site Name</Link>
       <nav className="main-nav">
         <ul>
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/about">About as</NavLink></li>
-          <li><NavLink to="/how">How it works</NavLink></li>
+          <li><NavLink to="/" className="link">Home</NavLink></li>
+          <li><NavLink to="/about" className="link">About as</NavLink></li>
+          <li><NavLink to="/how" className="link">How it works</NavLink></li>
+          <li><NavLink to="/portfolio" className="link">Portfolio</NavLink></li>
         </ul>
       </nav>
     </header>
