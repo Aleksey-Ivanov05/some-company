@@ -1,0 +1,40 @@
+.header {
+    padding: 20px 15px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    width: 50px;
+    height: 48px;
+    background-image: url(../../images/logo.png);
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    text-indent: 60px;
+    overflow: hidden;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0 9px 0 0;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #868686;
+    text-transform: uppercase;
+    margin-left: 48px;
+}
+
+.active {
+    color: #000;
+    text-decoration: underline;
+}
